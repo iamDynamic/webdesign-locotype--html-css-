@@ -1,0 +1,114 @@
+body{
+    background-image: url(/images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+    color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    background-color: #182859;
+    padding: 40px;
+}
+nav h1{
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+nav div{
+    margin-left: 900px;
+    margin-top: 17px;
+}
+nav div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+article{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+article aside h1{
+    font-size: 80px;
+}
+article aside p{
+    margin-top: 30px;
+    font-size: 30px;
+}
+article aside button{
+    padding: 17px;
+    margin-top: 30px;
+    background-color: #182859;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: solid #fff;
+    text-transform: capitalize;
+}
+article section {
+    margin-left: 50px;
+    margin-top: -100px;
+}
+article section img{
+    width: 800px;
+}
+
+@media (max-width:1700px) {
+    nav div{
+        display: none;
+    }
+}
+
+@media (max-width:1350px) {
+    article section img{
+       display: none;
+    }
+}
+@media (max-width:1559px) {
+    body{
+        background-image: url(/images/back2.jpg);
+    }
+}
+@media (max-width:931px) {
+    body{
+        background-image: url(/images/back4.jpg);
+    }
+    nav{
+        opacity: 50%;
+    }
+}
+@media (max-width:621px) {
+    body{
+        background-image: url(/images/back3.jpg);
+        background-size: cover;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f14ecd;
+    }
+    nav{
+        opacity: 100%;
+    }
+    article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    article aside button{
+        background-color: #f14ecd;
+    }
+}
+@media (max-width:614px) {
+    article aside h1{
+        font-size: 40px;
+    }
+}
